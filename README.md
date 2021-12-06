@@ -32,7 +32,7 @@ Following the steps below for using our HQ-Ensemble for efficient ensemble pruni
 
 1. Install then dependencies in requirements.txt, and obtain the pretrained models for the dataset \<dataset\> according to the model files under \<dataset\> folder.
 2. Extract the prediction vectors and labels for \<dataset\> and store them as numpy vectors under \<dataset\>/prediction for testing data and \<dataset\>/train for training data.
-3. Set up the environments with env.sh, then execute the HQ-Ensemble.py or naiveDiversityPruning.py file to obtain the corresponding results.
+3. Set up the environments with env.sh, then execute the HQ-Ensemble.py or baselineDiversityPruning.py file to obtain the corresponding results.
 
 Please refer to our paper and appendix for detailed results.
 
